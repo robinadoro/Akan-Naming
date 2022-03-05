@@ -17,7 +17,7 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#test">Test</a></li>
                     <li><a href=""></a></li>
                 </ul>
             </nav>            
@@ -41,16 +41,34 @@
                 <p>This is a simple web application that takes a user's birthday <br> and calculates the day of the week they were born <br> and then depending on their gender outputs their Akan Name.</p>
             </article>            
         </main>
+        <form name="calender" id="calend" class="Form">
+            <div class="item-inputs">
+                <p>Date of Birth</p>
+                <input type="text" name="date born" value="dob" id="dborn" placeholder="Date of Birth eg:02"
+                    minlength="1" maxlength="2" required>
+            </div>
+            <div class="item-inputs">
+                <p>Month Born</p>
+                <input type="text" name="month born" value="mob" id="mborn" placeholder="Month Born eg:04"
+                    minlength="1" maxlength="2" required>
+            </div>
+            <div class="item-inputs">
+                <p>Year Born </p>
+                <input type="text" name="year born" value="yob" id="yrborn" placeholder="Year Born eg:1995"
+                    minlength="1" maxlength="4" required>
+            </div>
+            <div class="check">
+                <input type="radio" id="male" name="gender" value="Male">
+                  <label for="male">Male</label>
+                  <input type="radio" id="css" name="gender" value="Female">
+                  <label for="female">Female</label><br>
 
-        <!-- form -->
-        <form action="">
-            <label for="">Choose your birthdate</label>
-            <input type="date" name="" id="date">
-            <input type="radio" name="gender" id="male" >
-            <label for="">Male</label>
-            <input type="radio" name="gender" id="female">
-            <label for="">Female</label>
-            <button type="submit" class="btn btn-primary" onclick="">Submit</button>
+            </div>
+            <div class="submiting">
+                <input type="submit" value="Submit">
+            </div>
+
+
         </form>
         <div class="low_text">
             <div id="text">
