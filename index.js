@@ -7,12 +7,13 @@ var text = document.getElementById("text");
 
 
 function getDayOfWeek(DD, MM, YOB) {
-    let CC=Math.trunc(YOB/100),
+    let CC=(YOB/100),
         YY=YOB%100;
-        
-    let day = Math.trunc( Math.trunc((CC/4) -2*CC-1) + Math.trunc((5*YY/4) ) + Math.trunc((26*(MM+1)/10)) + DD ) % 7;
-    return day;
-    
+
+       let day;
+       day= ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7 ;
+       day= Math.floor(day);
+       return day;  
 }
 
 function clicke(e) {
@@ -23,7 +24,7 @@ function clicke(e) {
     
     }
     let checked;
-    for (var i = 0; i < gender.length; i++) {
+    for (var i = 0; i <= gender.length; i++) {
         if (gender[i].checked) {
             checked = gender[i].value;
 
@@ -35,7 +36,7 @@ function clicke(e) {
         yob = yearOfBirth.value,
         day = getDayOfWeek(dob, mob, yob);
     let namesis=names[checked][day];
-    text.innerHTML= "Your Akan name is "+ namesis;
+    text.innerHTML= "Your Akan name is: "+ namesis;
     console.log(dob, mob, yob, checked, day, namesis);
 }
 submitButton.addEventListener("click", clicke);
