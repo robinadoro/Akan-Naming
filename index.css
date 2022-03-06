@@ -46,8 +46,11 @@ nav{
 }
 article{
     border: 1px solid;
+    border: none;
     text-align: center;
     padding: 5%;
+    background-color: aqua;
+
 }
 article h3{
     padding-bottom: 2%;
@@ -58,23 +61,27 @@ article p{
 }
 form{
     border: 1px solid;
+    border: none;
+    border-radius: 5px;
     height: 500px;
     padding: 0%;
     padding-top: 3%;
     align-self: center;
-    margin-left: 37%;
+    margin-left: 35%;
     margin-right: 35%;
+    background-color: aliceblue;
+    margin-top: -5%;
 }
 form p{
     padding-top: 1%;
     padding: 0%;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: 1%;
     font-weight: bolder;
     /* padding-bottom: -5%; */
 }
 form input{
-    margin-left: 15%;
+    margin-left: 20%;
     /* padding-bottom: 10%; */
 
 }
@@ -89,4 +96,19 @@ form input{
     color: aliceblue;
     padding: 2%;
     border-radius: 15px;
+}
+#sub:hover{
+    background-color: aqua;
+    color: black;
+}
+.low_text{
+    border: 1px solid;
+    text-align: center;
+    padding: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: x-large;
+    font-family: 'Arima Madurai', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Permanent Marker', cursive;
 }
