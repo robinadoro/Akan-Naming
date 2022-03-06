@@ -83,3 +83,10 @@ form input{
     font-size: large;
     font-weight: bold;
 }
+#sub{
+    background-color: blue;
+    margin-left: 35%;
+    color: aliceblue;
+    padding: 2%;
+    border-radius: 15px;
+}
