@@ -17,12 +17,14 @@ nav{
 }
 .navbar li{
     padding: 15%;
+    
        
 }
 .navbar a{
     text-decoration: none;
     font-weight: bolder;
     font-size: x-large;
+    color: black;
 }
 
 .top-page{
