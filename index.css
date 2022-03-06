@@ -52,9 +52,9 @@ article{
     background-color: aqua;
 
 }
-article h3{
+article h4{
     padding-bottom: 2%;
-    font-size: 50px;
+    font-size: 35px;
 }
 article p{
     font-size: x-large;
@@ -103,6 +103,7 @@ form input{
 }
 .low_text{
     border: 1px solid;
+    border: none;
     text-align: center;
     padding: 2%;
     background-color: aqua;
@@ -114,6 +115,7 @@ form input{
     font-family: 'Permanent Marker', cursive;
 }footer{
     border: 1px solid;
+    border: none;
     padding: 1%;
     text-align: end;
     font-size: medium;
