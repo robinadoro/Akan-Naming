@@ -105,10 +105,17 @@ form input{
     border: 1px solid;
     text-align: center;
     padding: 2%;
+    background-color: aqua;
     margin-left: 35%;
     margin-right: 35%;
     font-size: x-large;
     font-family: 'Arima Madurai', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Permanent Marker', cursive;
+}footer{
+    border: 1px solid;
+    padding: 1%;
+    text-align: end;
+    font-size: medium;
+    padding-right: 200px;    
 }
